@@ -8,13 +8,13 @@ body {
     color: #03256C;
 }
 
-.book {
+.book, .join {
     background-color: #A1EF8B;
     color: #03256C;
     text-decoration: none;
 }
 
-.book:hover {
+.book:hover, .join:hover {
     background-color: #2541B2;
     color: white;
 }
@@ -41,10 +41,6 @@ footer a {
 footer a:hover {
     background-color: #03256C;
     color: #A1EF8B;
-}
-
-footer h3 {
-    color: #2541B2;
 }
 
 footer p {
@@ -79,17 +75,6 @@ header {
 
 .icon {
     width: 80px;
-}
-
-.join {
-    background-color: #A1EF8B;
-    color: #03256C;
-    text-decoration: none;
-}
-
-.join:hover {
-    background-color: #2541B2;
-    color: white;
 }
 
 .logo {
