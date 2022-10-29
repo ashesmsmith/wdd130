@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.circle{
+    display: inline;
+    border-radius: 50%;
+    border: 10px solid rgb(73, 73, 73);
+    width: 25%;
+    margin: auto 15px;
+    margin-top: 50px;
+}

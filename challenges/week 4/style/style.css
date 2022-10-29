@@ -1,0 +1,49 @@
+body {
+    background-color: palevioletred;
+    color: black;
+}
+
+.credit {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h1:hover {
+    color: black;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    width: 0 auto;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.list {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.white {
+    color: white;
+    text-align: center;
+}
