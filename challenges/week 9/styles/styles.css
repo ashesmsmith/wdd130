@@ -1,0 +1,28 @@
+body {
+    border-radius: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    overflow: auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10%;
+}
+
+div {
+    text-align: center;
+}

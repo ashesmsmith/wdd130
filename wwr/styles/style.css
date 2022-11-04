@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@300&display=swap');
 
+/* Home Page and Defaults */
 #background {
     height: 725px;
     background-color: #A1EF8B;
@@ -228,6 +229,75 @@ nav a:hover {
     grid-row: 2/3;
 }
 
+
+/* Rivers Page */
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#rivers-header {
+    grid-column: 1/4;
+    text-align: center;
+    font-family: Bad Script, Georgia, Times New Roman;
+    font-size: 3em;
+}
+
+.idaho-river {
+    grid-column: 1/4;
+    text-align: left;
+    font-size: .8em;
+    padding: 35px;
+}
+
+.idaho-river h2 {
+    font-size: 2em;
+}
+
+.idaho-river-img {
+    grid-column: 3/4;
+    float: right;
+    border: 10px solid #2541B2;
+}
+
+.utah-river {
+    grid-column: 1/4;
+    text-align: right;
+    font-size: .8em;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+.utah-river h2 {
+    font-size: 2em;
+}
+
+.utah-river-img {
+    grid-column: 1/2;
+    float: left;
+    border: 10px solid #2541B2;
+}
+
+.arizona-river {
+    grid-column: 1/4;
+    text-align: left;
+    font-size: .8em;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+.arizona-river h2 {
+    font-size: 2em;
+}
+
+.arizona-river-img {
+    grid-column: 3/4;
+    float: right;
+    border: 10px solid #2541B2;
+}
+
+
+/* Media Queries*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
