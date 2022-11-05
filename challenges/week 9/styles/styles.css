@@ -20,7 +20,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: darkblue;
     color: white;
-    border-radius: 10%;
 }
 
 div {
