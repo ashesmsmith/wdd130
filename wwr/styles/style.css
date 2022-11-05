@@ -101,7 +101,7 @@ h4 {
 }
 
 header {
-    background-color: #A1EF8B;
+    background-color: #03256C;
     color: white;
     display: grid;
     grid-template-columns: 150px auto;
@@ -204,15 +204,16 @@ nav {
 
 nav a {
     text-align: center;
-    background-color: #A1EF8B;
-    color: #03256C;
+    background-color: #03256C;
+    color: #A1EF8B;
     text-decoration: none;
     padding: 35px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    background-color: #03256C;
-    color: #A1EF8B;
+    background-color:#A1EF8B;
+    color: #03256C;
 }
 
 .rapids-card {
@@ -234,6 +235,9 @@ nav a:hover {
 .rivers-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 2em 2em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 #rivers-header {
@@ -243,21 +247,32 @@ nav a:hover {
     font-size: 3em;
 }
 
-.idaho-river {
-    grid-column: 1/4;
-    text-align: left;
-    font-size: .8em;
-    padding: 35px;
+.idaho-river, .arizona-river {
+	grid-column: 1/4;
+	text-align: left;
+	font-size: .8em;
+	padding: 35px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0 2em;  /* This sets the row gap then the column gap */
+    background-color: #A1EF8B;
 }
 
-.idaho-river h2 {
-    font-size: 2em;
+.idaho-river-img, .arizona-river-img {
+	grid-column: 3;
+	border: 10px solid #2541B2;
+	grid-row: 1/6;
+    align-self: center;
 }
 
-.idaho-river-img {
-    grid-column: 3/4;
-    float: right;
-    border: 10px solid #2541B2;
+.idaho-river h2, .arizona-river h2 {
+	font-size: 2em;
+	grid-column: 1/3;
+	justify-self: center;
+}
+
+.idaho-river p, .arizona-river p {
+	grid-column: 1/3;
 }
 
 .utah-river {
@@ -265,36 +280,28 @@ nav a:hover {
     text-align: right;
     font-size: .8em;
     padding: 35px;
-    margin-top: 20px;
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0 2em;  /* This sets the row gap then the column gap */
+}
+
+.utah-river-img {
+    grid-column: 1;
+    border: 10px solid #2541B2;
+    grid-row: 1/6;
+    align-self: center;
 }
 
 .utah-river h2 {
     font-size: 2em;
+    grid-column: 2/4;
+    justify-self: center;
 }
 
-.utah-river-img {
-    grid-column: 1/2;
-    float: left;
-    border: 10px solid #2541B2;
+.utah-river p {
+    grid-column: 2/4;
 }
 
-.arizona-river {
-    grid-column: 1/4;
-    text-align: left;
-    font-size: .8em;
-    padding: 35px;
-    margin-top: 20px;
-}
-
-.arizona-river h2 {
-    font-size: 2em;
-}
-
-.arizona-river-img {
-    grid-column: 3/4;
-    float: right;
-    border: 10px solid #2541B2;
-}
 
 
 /* Media Queries*/
