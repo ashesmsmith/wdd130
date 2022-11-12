@@ -55,7 +55,16 @@ main p {
 
 
 /* Family Updates Page Only */
+.updates_image_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 5px;
+}
+
 .update_images {
+    width: 30%;
+    height: auto;
     border: #19B3F0 5px solid;
 }
 
@@ -71,7 +80,9 @@ main p {
 #faq_image_container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 2em;
+    column-gap: 25px;
 }
 
 #faq_image_container img{
@@ -82,6 +93,7 @@ main p {
 
 .faq p {
     margin: 10px;
+    padding: 10px;
 }
 
 .resources, .faq {
@@ -90,7 +102,7 @@ main p {
 
 .resources a {
     text-align: left;
-    font-size: 1em;
+    font-size: 1.3em;
     margin: 30px;
     color: #19B3F0;
 }
