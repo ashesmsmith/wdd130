@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+/* Defaults- All Pages */
+body {
+    background-color: #FCFCFC;
+    color: #053C5E;
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+}
+
+main {
+    text-align: center;
+    margin: 2.5em;
+}
+
+h1 {
+    font-family: Dancing Script, Brush Script;
+    font-size: 2.5em;
+    color: #A31621;
+    margin: 0;
+    padding: 10px;
+    border-top: #053C5E 3px solid;
+    border-bottom: #053C5E 3px solid;
+}
+
+h2 {
+    font-family: Montserrat, Tahoma, Arial;
+}
+
+h3 {
+    text-align: left;
+    font-family: Montserrat, Tahoma, Arial;
+    background-color: #19B3F0;
+    color: #053C5E;
+    padding: 10px;
+    margin: 30px;
+}
+
+main p {
+    text-align: left;
+    font-family: Montserrat, Tahoma;
+    margin: 30px;
+}
+
+
+/* Home Page Only */
+#family_picture {
+    width: 60%;
+    height: auto;
+    border: #19B3F0 5px solid;
+    margin: 30px;
+    border-radius: 10%;
+}
+
+
+/* Family Updates Page Only */
+.update_images {
+    border: #19B3F0 5px solid;
+}
+
+
+/* FAQ/More Resources Page Only */
+.color {
+    background-color: #19B3F0;
+    color: #053C5E;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#faq_image_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+#faq_image_container img{
+    width: 100%;
+    height: auto;
+    border: #053C5E 5px solid;
+}
+
+.faq p {
+    margin: 10px;
+}
+
+.resources, .faq {
+        text-align: left;
+}
+
+.resources a {
+    text-align: left;
+    font-size: 1em;
+    margin: 30px;
+    color: #19B3F0;
+}
+
+
+/* Nav & Footer Only*/
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#053C5E;
+    color: #FCFCFC;
+    font-family: Montserrat, Tahoma;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-align: center;
+    background-color:#053C5E;
+    color: #FCFCFC;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #A31621;
+    color: #19B3F0;
+}
+
+footer {
+    background-color: #053C5E;
+    color: #FCFCFC;
+    font-family: Montserrat, Tahoma, Arial;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #19B3F0;
+    text-decoration: none;
+}

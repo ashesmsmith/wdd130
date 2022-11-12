@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -21,9 +21,9 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #052C5E  ;
   --nav-link-color: white;
-  --nav-background-color: #A31621;
+  --nav-background-color: #052C5E;
   --nav-hover-link-color: #19B3F0;
-  --nav-hover-background-color: #052C5E;
+  --nav-hover-background-color: #A31621;
 }
 
 
