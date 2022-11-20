@@ -1,113 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
 
-/* Defaults- All Pages */
-body {
-    background-color: #FCFCFC;
-    color: #053C5E;
-    margin: 0;
-    padding: 0;
-    max-width: 1600px;
-}
-
-main {
-    text-align: center;
-    margin: 2.5em;
-}
-
-h1 {
-    font-family: Dancing Script, Brush Script;
-    font-size: 2.5em;
-    color: #A31621;
-    margin: 0;
-    padding: 10px;
-    border-top: #053C5E 3px solid;
-    border-bottom: #053C5E 3px solid;
-}
-
-h2 {
-    font-family: Montserrat, Tahoma, Arial;
-}
-
-h3 {
-    text-align: left;
-    font-family: Montserrat, Tahoma, Arial;
-    background-color: #19B3F0;
-    color: #053C5E;
-    padding: 10px;
-    margin: 30px;
-}
-
-main p {
-    text-align: left;
-    font-family: Montserrat, Tahoma;
-    margin: 30px;
-}
-
-
-/* Home Page Only */
-#family_picture {
-    width: 60%;
-    height: auto;
-    border: #19B3F0 5px solid;
-    margin: 30px;
-    border-radius: 10%;
-}
-
-
-/* Family Updates Page Only */
-.updates_image_container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    column-gap: 5px;
-}
-
-.update_images {
-    width: 30%;
-    height: auto;
-    border: #19B3F0 5px solid;
-}
-
-
-/* FAQ/More Resources Page Only */
-.color {
-    background-color: #19B3F0;
-    color: #053C5E;
-    padding: 10px;
-    font-size: 1.1em;
-}
-
-#faq_image_container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 2em;
-    column-gap: 25px;
-}
-
-#faq_image_container img{
-    width: 100%;
-    height: auto;
-    border: #19B3F0 5px solid;
-}
-
-.faq p {
-    margin: 10px;
-    padding: 10px;
-}
-
-.resources, .faq {
-        text-align: left;
-}
-
-.resources a {
-    text-align: left;
-    font-size: 1.3em;
-    margin: 30px;
-    color: #19B3F0;
-}
-
-
 /* Nav & Footer Only*/
 header {
     display: grid;
@@ -161,3 +53,154 @@ footer a {
     color: #19B3F0;
     text-decoration: none;
 }
+
+
+/* Defaults- All Pages */
+body {
+    background-color: #FCFCFC;
+    color: #053C5E;
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+}
+
+main {
+    text-align: center;
+    margin: 2.5em;
+}
+
+h1 {
+    font-family: Dancing Script, Brush Script;
+    font-size: 2.5em;
+    color: #A31621;
+    margin: 0;
+    padding: 10px;
+    border-top: #053C5E 3px solid;
+    border-bottom: #053C5E 3px solid;
+}
+
+h2 {
+    font-family: Montserrat, Tahoma, Arial;
+}
+
+h3 {
+    text-align: left;
+    font-family: Montserrat, Tahoma, Arial;
+    background-color: #19B3F0;
+    color: #053C5E;
+    padding: 10px;
+    margin: 30px;
+}
+
+main p {
+    text-align: left;
+    font-family: Montserrat, Tahoma;
+    margin: 30px;
+}
+
+
+/* Home Page Only */
+#family_picture {
+    max-width: 100%;
+    height: auto;
+    border: #19B3F0 5px solid;
+    border-radius: 10%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+/* Family Updates Page Only */
+.update_image_container_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+    justify-items: center;
+}
+
+.update_image_side {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border: #19B3F0 solid 5px;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.update_image_top {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: #19B3F0 solid 5px;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.update_image_bottom {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: #19B3F0 solid 5px;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.update_image_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.update_images {
+    width: 45%;
+    height: auto;
+    border: #19B3F0 5px solid;
+}
+
+
+/* FAQ/More Resources Page Only */
+.color {
+    background-color: #19B3F0;
+    color: #053C5E;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#faq_image_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em;
+    column-gap: 25px;
+}
+
+#faq_image_container img{
+    width: 100%;
+    height: auto;
+    border: #19B3F0 5px solid;
+}
+
+.faq p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.q_a {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.resources, .faq {
+        text-align: left;
+}
+
+.resources a {
+    text-align: left;
+    font-size: 1.3em;
+    margin: 30px;
+    color: #19B3F0;
+}
+
