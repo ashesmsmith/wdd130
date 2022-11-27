@@ -164,11 +164,18 @@ main p {
 
 
 /* FAQ/More Resources Page Only */
-.color {
+summary, .color {
     background-color: #19B3F0;
     color: #053C5E;
+    font-family: Montserrat, Tahoma, Arial;
+    font-weight: bold;
     padding: 10px;
     font-size: 1.1em;
+}
+
+details p {
+    background-color: white;
+    color: #053C5E;
 }
 
 #faq_image_container {
@@ -193,6 +200,16 @@ main p {
 .q_a {
     margin-top: 3%;
     margin-bottom: 2%;
+}
+
+.title {
+    font-family: Dancing Script, Brush Script;
+    font-size: 2.5em;
+    color: #A31621;
+    margin: 0;
+    padding: 10px;
+    border-top: #053C5E 3px solid;
+    border-bottom: #053C5E 3px solid;
 }
 
 .resources, .faq {
